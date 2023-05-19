@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #EFF2F4;
+}
+
+.parent-div{
+    margin: 70px 70px;
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.grid-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.grid-1 h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: #1E1E1E;
+}
+
+.grid-1-1{
+    display: flex;
+    gap: 10px;
+}
+
+.grid-1-1 button{
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.grid-1-1-button-1{
+    background: #3792DE;
+    border: none;
+    width: 97px;
+}
+
+.grid-1-1-button-2{
+    background: #fff;
+    border: 1px solid #1E1E1E;
+    width: 97px;
+}
+
+.grid-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.grid-2 h4{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.social-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.social-buttons-1{
+    display: flex;
+    background: #5985E5;
+    padding: 20px 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.social-buttons-2{
+    display: flex;
+    background: #fff;
+    border: 0.5px solid #1E1E1E;
+    color: #3792DE;
+    padding: 20px 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.social-buttons-3{
+    display: flex;
+    background: #fff;
+    border: 0.5px solid #1E1E1E;
+    color: #3792DE;
+    padding: 20px 30px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.social-buttons i{
+    font-size: 24px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+}
+
+.login-form a{
+    font-weight: 400;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.login-form input{
+    padding: 10px 30px;
+    color: #1E1E1E;
+    border-radius: 6px;
+    border: 1px solid #1E1E1E;
+    outline: none;
+}
+
+.login-form input:focus{
+    outline: 1px solid #3792DE;
+    border: none;
+}
+
+.login-form button{
+    padding: 13px;
+    font-size: 16px;
+    background: #3792DE;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+.forgot-pass{
+    margin-top: 30px;
+}
+
+.forgot-pass a{
+    color: #3792DE;
+    cursor: pointer;
+}
+
+.line{
+    border-bottom: 1px solid #1E1E1E;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.or{
+    margin-top: -12px;
+    background-color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
