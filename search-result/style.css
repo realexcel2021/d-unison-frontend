@@ -115,6 +115,14 @@ body{
     padding-top: 50px;
 }
 
+.grid-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20% 20% 20% 20%;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
 .items{
     background: #F2F2F2;
     border-radius: 16px;
@@ -234,4 +242,33 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+
+@media all and (max-width: 668px){
+
+    .search-info{
+        background-color: #F2F2F2;
+        margin-top: 30px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+    }
+
+    .parent-div{
+        background-color: #fff;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .grid-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+        gap: 10px;
+    }
+
 }

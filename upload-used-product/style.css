@@ -177,3 +177,90 @@ body{
     align-items: center;
     gap: 10px;
 }
+
+@media all and (max-width: 668px){
+
+    .head{
+        gap: 20px;
+    }
+    
+    .parent-div{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .content{
+        grid-template-columns: 100%;
+        margin-top: 30px;
+        padding-left: 0px;
+        gap: 0px;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+    
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        
+    }
+
+    .second-div{
+        display: none;
+    }
+
+    .inputs{
+        width: 100%;
+    }
+
+    .inputs input{
+        display: block;
+        margin-top: 10px;
+        padding: 15px;
+        text-transform: capitalize;
+        width: 100%;
+        height: 31px;
+        font-size: 16px;
+        outline: none;
+        border: 1px solid #D2D2D2;
+    }
+
+    .submit{
+        width: 100%;
+    }
+
+    .footer-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .footer-2-1{
+        padding-left: 10px;
+        padding-top: 30px;
+        line-height: 24px;
+    }
+
+    .category-about-img{
+        padding-top: 10px;
+    }
+    
+    .footer-categories-parent{
+        padding: 10px;
+        display: flex;
+        margin-right: 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .final--footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer-2{
+        padding: 10px;
+    
+    }
+
+}

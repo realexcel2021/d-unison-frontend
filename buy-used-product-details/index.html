@@ -4,54 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Buy Used product Details</title>
 </head>
 <body>
 
-    <!--First Nav-->
-
+    <!--First nav with search Bar-->
     <div class="first-nav">
-        <img src="./svg/logo.svg"/>
 
-            <div class="search-bar">
-              <input placeholder="Search"/>
-              <select>
-                  <option>State</option>
-              </select>
-              <button> Search </button>
+            <div class="first-nav-child">
+                <img src="./svg/logo.svg"/>
+                <div class="search-bar">
+                    <input placeholder="Search"/>
+                    <select>
+                        <option>State</option>
+                    </select>
+                    <button> Search </button>
+                  </div>
+      
+                  <div class="avatar-container">
+                            <div class="avatar">
+                              <a>
+                              <img src="./svg/Vector.png"/>
+                              <span>Profile</span>
+                              </a>
+                          </div>
+        
+                          <div class="avatar">
+                            <a>
+                              <img src="./svg/message.png"/>
+                              <span>Message</span>
+                            </a>
+                          </div>
+      
+                          <div class="avatar">
+                            <a>
+                              <img src="./svg/heart.png"/>
+                              <span>Orders</span>
+                            </a>
+                          </div>
+      
+                          <div class="avatar">
+                            <a>
+                              <img src="./svg/cart.png"/>
+                              <span>My Cart</span>
+                            </a>
+                          </div>
+                  </div>
+      
+                  <div class="phone-menu toggle-btn">
+                        <i class="ri-menu-line toggle-btn-icon"></i>  
+                  </div>
             </div>
 
-            <div class="avatar-container">
-                      <div class="avatar">
-                        <a>
-                        <img src="./svg/Vector.png"/>
-                        <span>Profile</span>
-                        </a>
-                    </div>
-  
-                    <div class="avatar">
-                      <a>
-                        <img src="./svg/message.png"/>
-                        <span>Message</span>
-                      </a>
-                    </div>
-
-                    <div class="avatar">
-                      <a>
-                        <img src="./svg/heart.png"/>
-                        <span>Orders</span>
-                      </a>
-                    </div>
-
-                    <div class="avatar">
-                      <a>
-                        <img src="./svg/cart.png"/>
-                        <span>My Cart</span>
-                      </a>
-                    </div>
-            </div>
+            <div class="search-bar-1">
+                <input placeholder="Search"/>
+                <select>
+                    <option>State</option>
+                    <option> Hi </option>
+                </select>
+                <button> Search </button>
+              </div>
+            
   </div>
+  <!--Dropdown for mobile devices-->
+  <div class="drop-down ">
+      <div class="avatar">
+            <a>
+            <img src="./svg/Vector.png"/>
+            <span>Profile</span>
+            </a>
+        </div>
+
+        <div class="avatar">
+          <a>
+            <img src="./svg/message.png"/>
+            <span>Message</span>
+          </a>
+        </div>
+
+        <div class="avatar">
+          <a>
+            <img src="./svg/heart.png"/>
+            <span>Orders</span>
+          </a>
+        </div>
+
+        <div class="avatar">
+          <a>
+            <img src="./svg/cart.png"/>
+            <span>My Cart</span>
+          </a>
+        </div>
+</div>
+
 
   <!--Second nav-->
 
@@ -391,6 +438,19 @@
 </div>
 
 </footer>
+
+<script>
+    const togglebtn = document.querySelector(".toggle-btn")
+    const togglebtn_icon = document.querySelector(".toggle-btn i")
+    const dropDown = document.querySelector(".drop-down")
+
+    togglebtn.onclick = () => {
+          dropDown.classList.toggle("open")
+          const isopen = dropDown.classList.contains('open')
+
+          togglebtn_icon.classList = isopen ? 'ri-close-fill' : 'ri-menu-line' 
+    }
+</script>
 
 </div>
 </body>

@@ -373,6 +373,10 @@ body{
     cursor: pointer;
 }
 
+.grid-3-2-1 img{
+    width: 100%;
+}
+
 .grid-3-2-1 h4{
     font-weight: 400;
     font-size: 16px;
@@ -477,6 +481,7 @@ body{
     justify-content: space-between;
     justify-items: center;
     gap: 10px;
+    width: 100%;
 }
 
 .grid-6-1-1{
@@ -515,6 +520,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-bottom: 70px;
+    flex-wrap: wrap;
 }
 
 .grid-7-1-child{
@@ -700,4 +706,136 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+}
+
+.grid-1-2 img{
+    width: 100%;
+}
+
+
+
+
+@media all and (max-width: 668px){
+
+    .second-nav{
+        margin-top: 5px;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+
+    .main-content{
+    background: #EFF2F4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 100%;
+    background: #fff;
+    padding: 20px;
+    padding-top: 20px;
+    
+    border-radius: 6px;
+    border: 1px solid #DEE2E7;
+}
+
+.grid-1-2 img{
+    width: 100%;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.grid-2-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    position: relative;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.grid-3-1-child{
+    margin-top: 0%;
+    padding: 10px;
+}
+
+.grid-3-2-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-4{
+    grid-template-columns: 100%;
+}
+
+.grid-5{
+    grid-template-columns: 100%;
+}
+
+.grid-6{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.grid-6-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.grid-6-1-1 img{
+    width: 100%;
+}
+
+.grid-7-1{
+    gap: 10px;
+}
+
+.grid-7-1-child{
+    width: 100%;
+}
+
+.footer-2{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.footer-2-1{
+    padding-left: 10px;
+    padding-top: 30px;
+    line-height: 24px;
+}
+
+.category-about-img{
+    padding-top: 10px;
+}
+
+.footer-categories-parent{
+    padding: 10px;
+    display: flex;
+    margin-right: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.final--footer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-2{
+    padding: 10px;
+
+}
+
+
 }

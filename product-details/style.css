@@ -84,6 +84,7 @@ body{
 .grid-2{
     display: grid;
     grid-template-columns: 40% 60%;
+    gap: 30px;
 }
 
 .table{
@@ -315,4 +316,33 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.product-img{
+    width: 100%;
+}
+
+@media all and (max-width: 668px){
+
+    .main-content{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .grid-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .grid-1{
+
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .grid-1-stars{
+        gap: 10px;
+    }
+
 }

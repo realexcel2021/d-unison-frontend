@@ -531,3 +531,147 @@ input[type="range"]::-webkit-slider-thumb{
     justify-content: space-between;
     align-items: center;
 }
+
+.phone-menu{
+    display: none;
+}
+
+.drop-down{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.drop-down.open{
+    opacity: 1;
+}
+
+.drop-down .avatar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.drop-down .avatar{
+    padding: 10px;
+}
+
+@media all and (max-width: 668px){
+
+    .first-nav{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .avatar-container{
+        display: none;
+    }
+
+    .phone-menu{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .drop-down{
+        display: block;
+    }
+
+    .second-nav{
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        justify-content: space-between;
+        font-size: 16px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .main-content{
+        display: grid;
+        padding-right: 10px;
+        padding-left: 10px;
+        grid-template-columns: 100%;
+        background: #F7FAFC;
+    }
+
+    .grid-2{
+        margin-left: 0px;
+    }
+
+    .grid-2-child-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 58px;
+        background: #FFFFFF;
+        border: 1px solid #eee;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+
+    .grid-2-child-2{
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid #DEE2E7;
+        
+    }
+
+    .heart-2{
+        position: absolute;
+        right: 20px;
+    }
+    
+    .footer-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .footer-2-1{
+        padding-left: 10px;
+        padding-top: 30px;
+        line-height: 24px;
+    }
+
+    .category-about-img{
+        padding-top: 10px;
+    }
+    
+    .footer-categories-parent{
+        padding-top: 50px 30px;
+        display: flex;
+        margin-right: 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .final--footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .drop-down{
+        left: 2rem;
+        width: unset;
+    }
+}

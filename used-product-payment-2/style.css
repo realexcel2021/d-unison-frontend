@@ -125,3 +125,56 @@ body{
     align-items: center;
 }
 
+@media all and (max-width: 668px){
+
+    .parent-div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .parent-grid{
+        grid-template-columns: 100%;
+        margin-left: 0px;
+        gap: 10%;
+        align-items: center;
+        padding-bottom: 70px;
+    }
+
+    .parent-grid-2{
+        display: none;
+    }
+
+    .footer-2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .footer-2-1{
+        padding-left: 10px;
+        padding-top: 30px;
+        line-height: 24px;
+    }
+
+    .category-about-img{
+        padding-top: 10px;
+    }
+    
+    .footer-categories-parent{
+        padding: 10px;
+        display: flex;
+        margin-right: 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .final--footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer-2{
+        padding: 10px;
+    
+    }
+
+}

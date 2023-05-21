@@ -252,3 +252,28 @@ body{
     align-items: center;
     gap: 20px;
 }
+
+@media all and (max-width: 668px){
+
+    .main-content{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .grid-1{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+
+    .second-nav{
+        margin-top: 5px;
+        padding: 10px 10px;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+}
