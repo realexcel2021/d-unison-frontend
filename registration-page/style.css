@@ -205,6 +205,24 @@ body{
         font-size: 40px;
         color: #1E1E1E;
     }
+
+    .grid-1 h1{
+        font-weight: 700;
+        font-size: 40px;
+        color: #1E1E1E;
+    }
+
+    .social-buttons-1{
+        padding: 10px 15px;
+    }
+
+    .social-buttons-2{
+        padding: 10px 15px;
+    }
+
+    .social-buttons-3{
+        padding: 10px 15px;
+    }
     
 
 }
